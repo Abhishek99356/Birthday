@@ -1,5 +1,5 @@
 import React from 'react'
-import BirthdayInvitation from './pages/BirthdayInvitation'
+import BirthdayInvitation from "./pages/Birthdayinvitation";
 
 function App() {
   return (
