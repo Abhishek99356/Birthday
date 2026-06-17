@@ -1,10 +1,10 @@
 
 import { useState, useEffect } from "react";
-import img1 from "../assets/photo1.png";
-import img2 from "../assets/photo2.png";
+import img1 from "../assets/Photo1.png";
+import img2 from "../assets/Photo2.png";
 // import img3 from "../assets/photo3.png";
 // jitni photos hain utni import karo
-import guestImg1 from "../assets/photo1.png";
+import guestImg1 from "../assets/Photo1.png";
 
 const MY_PHOTOS = [img1, img2];
 // ─── Helpers ─────────────────────────────────────────────────────────────────
