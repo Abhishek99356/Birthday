@@ -4,7 +4,21 @@ import img1 from "../assets/Photo1.png";
 import img2 from "../assets/Photo2.png";
 // import img3 from "../assets/photo3.png";
 // jitni photos hain utni import karo
-import guestImg1 from "../assets/Photo1.png";
+import guestImg1 from "../assets/Photo3.png";
+import guestImg2 from "../assets/Photo4.jpg";
+import guestImg3 from "../assets/Photo5.jpg";
+import guestImg4 from "../assets/Photo6.jpg";
+import guestImg5 from "../assets/Photo7.jpg";
+import guestImg6 from "../assets/Photo8.jpg";
+import guestImg7 from "../assets/Photo9.jpg";
+import guestImg8 from "../assets/Photo10.jpg";
+import guestImg9 from "../assets/Photo11.jpg";
+import guestImg10 from "../assets/Photo12.jpg";
+import guestImg11 from "../assets/Photo13.jpg";
+import guestImg12 from "../assets/Photo14.jpg";
+import guestImg13 from "../assets/Photo15.jpg";
+import guestImg14 from "../assets/Photo16.jpg";
+import guestImg15 from "../assets/Photo17.jpg";
 
 const MY_PHOTOS = [img1, img2];
 // ─── Helpers ─────────────────────────────────────────────────────────────────
@@ -13,20 +27,25 @@ function rand(a, b) {
 }
 
 const GUESTS = [
-  { id:1, name:"Taufeek ansari",   photo: guestImg1 },  // photo baad mein add karo
-  { id:2, name:"Pooja",   photo: null },
-  { id:3, name:"Ankita",    photo: null },
-  { id:4, name:"Firoz",   photo: null },
-  { id:5, name:"Anmol",  photo: null },
-  { id:6, name:"Surendra yadav",   photo: null },
-  { id:7, name:"Sidharth Srivastava",   photo: null },
-  { id:8, name:"Prem",   photo: null },
-  { id:9, name:"Aditya yadav",   photo: null },
-  { id:10, name:"Lokesh singh",   photo: null },
-  { id:11, name:"Sidharth Singh",   photo: null },
-  { id:12, name:"Vinay patel",   photo: null },
-  { id:13, name:"Nagendra",   photo: null },
-  { id:14, name:"Manish singh",   photo: null },
+  // { id:1, name:"Abhishek",   photo: guestImg1 }, 
+  { id:17, name:"Abhishek",   photo: img1 },
+  { id:1, name:"Taufeek ansari",   photo: guestImg1 },
+  { id:2, name:"Ankita",    photo: guestImg2 }, 
+   { id:3, name:"Firoz",   photo: guestImg3 },
+  { id:4, name:"Pooja",   photo: guestImg4 },
+  { id:5, name:"Anmol",  photo: guestImg5 },
+  { id:6, name:"Surendra yadav",   photo: guestImg6 },
+  { id:7, name:"Sidharth Srivastava",   photo: guestImg7},
+  { id:8, name:"Prem",   photo: guestImg8 },
+  { id:9, name:"Aditya yadav",   photo: guestImg9 },
+  { id:10, name:"Lokesh singh",   photo: guestImg15 },
+  // { id:11, name:"Sidharth Singh",   photo: guestImg16 },
+  { id:12, name:"Vinay patel",   photo: guestImg10 },
+  { id:13, name:"Nagender",   photo: guestImg11 },
+  { id:14, name:"Manish singh",   photo: guestImg12 },
+  { id:15, name:"Shivam varma",   photo: guestImg14 },
+  { id:16, name:"Anamika gupta",   photo: guestImg13 },
+  
   
 ];
 
